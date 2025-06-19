@@ -18,12 +18,14 @@ The entire frontend is powered using React functional components and hooks only,
 **Blueberry Cone Landing Page Deployed on:** [Netlify Link Here](https://blueberry-cone-icecream.netlify.app/)  
 **Chocolate Cone Landing Page Deployed on:** [Netlify Link Here](https://chocolate-cone-icecream.netlify.app/)   
 **Evergreen Cone Landing Page Deployed on:** [Netlify Link Here](https://icecream-delivery.netlify.app/) 
+
 **Figma Prototype Preview:** [Click to View](https://www.figma.com/proto/7wBPILkI59YRNAhIz2IWr9/Ice-Cream?page-id=0%3A1&node-id=1-17&viewport=435%2C53%2C0.11&t=zUaIQitWqVhKiM37-1&scaling=scale-down&content-scaling=fixed)
 
 ---
 
 ##  Folder Structure
 
+```
 icecream-landing/
 ├── public/
 │   └── index.html
@@ -44,7 +46,7 @@ icecream-landing/
 ├── .gitignore
 ├── package.json
 └── README.md
-
+```
 
 ---
 
