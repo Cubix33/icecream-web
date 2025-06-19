@@ -50,36 +50,32 @@ icecream-landing/
 
 ## Setup Instructions
 
-1. Clone the Repository
-   
+### Prerequisites
+- Node.js (v14.x or later)
+- npm (v6.x or later) or yarn.
+
+## Setup instructions 
+
+### 1. Clone the repository 
+```bash
 git clone https://github.com/Cubix33/icecream-web.git
+
 cd icecream-web
-
-2. Install Node.js & npm (if not installed)
-Download and install Node.js from: https://nodejs.org/
-
-Confirm installation with:
-
-node -v
-npm -v
-
-3. Install Project Dependencies
-   
+```
+### 2. Install the dependencies 
+ ```bash
 npm install
-
-This will install all required packages listed in package.json.
-
-5. Start the Development Server
-   
+npm install react-scripts 
+npm install react-router-dom
+```
+### 3. Start the development server
+```bash
 npm start
-
-Opens the app in your browser at http://localhost:3000.
-
-7. Build for Production
-
+```
+### 4. Build for production (optional)
+ ```bash
 npm run build
-
-Generates a build/ folder with a minified production-ready version of your app.
+```
 
 ## Responsiveness
 1. Fully responsive design using CSS flexbox and media queries.
