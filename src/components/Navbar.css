@@ -1,0 +1,64 @@
+.navbar {
+  display: flex;
+    justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 1rem;
+  margin-top: 0.5rem;
+  background-color: transparent;
+  color: white;
+  position: relative;
+}
+
+.navbar-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: 'Pacifico', cursive;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 6rem;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 1.3rem;;
+}
+
+.navbar-menu li {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.navbar-menu li:hover {
+  color: #ffb6e6;
+}
+
+.order-btn {
+  padding: 0.6rem 1.3rem;
+  background: transparent;
+  color: white;
+  font-weight: bold;
+  border: 2px solid white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+         /* Pushes the button as far right as possible */
+  margin-right: 3rem;
+  font-size: 1rem;          
+
+}
+
+.order-btn:hover {
+  background: white;
+  color: #d400ff;
+}
+
+/* Logo image, if used */
+.logo-img {
+  height: 65px;
+position: absolute;
+  LEFT: 12rem;
+  top: 1rem;
+  width: auto;
+}

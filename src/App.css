@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #BE128D, #FF6CEE); 
+  /*background: linear-gradient(135deg, #236CDA, #47C4F6); /*for blue one*/ 
+  /*background: linear-gradient(135deg, #9C5C3F, #E0BDB0); /*FOR CHOCOLATE CONE*/
+  /*background: linear-gradient(135deg, #2A9949, #47F66E); for evergreen cone */
+  color: white;
+  height: 100%;
+  max-height: 100vh;         /* Limits height to one screen */
+  overflow: hidden; 
+}    
+
+.App {
+  padding: 0;
+}
+   
